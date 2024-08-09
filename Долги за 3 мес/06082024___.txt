@@ -1,0 +1,66 @@
+id=filter-cases
+
+document.getElementById('filter-cases').value='user@automationanywhere.com';
+document.getElementById('password').value='pass';
+
+"document.querySelector(\".js-input\").value=\"АС Челябинской области\";"
+
+"document.getElementById(\"id8\").value=\"29.07.2024\";"
+
+"document.getElementById(\"id9\").value=\"02.08.2024\";"
+
+anyway_position_top
+
+button содержит класс
+
+document.querySelector('.').click();
+
+
+bankruptcy
+document.querySelector('.bankruptcy').click();
+
+
+"alert(\"test\")"
+
+
+"document.querySelector(\".bankruptcy\").click();"
+
+
+
+
+"document.querySelector(\".civil\").click();"
+
+$('li.menu').hasClass('active');
+
+"if(document.querySelector(\".bankruptcy\").hasClass(\"active\")) { } else { document.querySelector(\".bankruptcy\").click(); }" 
+
+
+"$(\".bankruptcy\").hasClass(\"active\");"
+
+
+"if($(\".bankruptcy\").hasClass(\"active\")) {} else {{document.querySelector(\".bankruptcy\").click();}"
+
+
+
+document.querySelectorAll()
+
+
+let collectionOfelements = document.querySelectorAll('.num_case');
+
+
+var domains = document.querySelectorAll('.a-href.num_case');
+
+document.querySelectorAll('.num_case').length
+
+document.querySelectorAll('.num_case')[0].getAttribute('href')
+
+
+
+var domains = document.querySelectorAll('.a-href');
+for(var i = 0; i < domains.length; i++) {
+	alert(domains[i].getAttribute('href'));
+}
+
+let numcases = document.querySelectorAll('a.num_case')
+for(var i = 0; i < 2; i++) {
+	alert(numcases[i].getAttribute('href'));
